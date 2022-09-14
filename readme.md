@@ -1,11 +1,10 @@
 
 
-![Google](http://www.stickpng.com/img/icons-logos-emojis/tech-companies/google-logo)
+![Google](https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png)
 
 
 
-
- ==HOW GOGGLE SEARCH WORKS==.
+# HOW GOGGLE SEARCH WORKS
 ------------------------
 * Goggle stores all of its webpage data in it's index and that stores in it database.
 
@@ -18,11 +17,11 @@
 * When any webpage updates on the Internet and apply for goggle to make them appear in goggle search engine.
 * Then goggle send it's [crawl](https://support.google.com/webmasters/answer/7646114?hl=en#:~:text=Crawling%20is%20the%20process%20of,(but%20closely%20related)%20actions.) i.e Spider i.e Gogglebot, to that wewbpage.
 
-##Crawler
+## Crawler
 
-==Crawling is the process of finding new or updated pages to add to Google.==
+**Crawling is the process of finding new or updated pages to add to Google**
 
-* Crawler is an ###Internet Bot.
+* Crawler is an ***Internet Bot***.
 
 * crawler scans the whole webpage and store the information,Important Keywords,Images and many more from that webpage.
 * It also check the effection and relevance of the webpage.
@@ -33,18 +32,20 @@ do same when he finds other link as like it work as a spider web.
 
 * Goggle provide [Search Concsole](https://support.google.com/webmasters/answer/9128668?hl=en) ,[Site map](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview) and [Robot Meta](https://www.semrush.com/blog/robots-meta/) to the web developer , to make his site ranked on the search engine. And for better effecincy of the webpage.
 
-##Search Concsole
-
+## Search Concsole
+----------------
 - Search Concsole ,Site map and Robot Meta is used by creater for better Crawl.
 - Search Console helps you to monitor the website Traffic and optimize your webpage.
 - It aslo helps you to monitor and resolve common issue with markup , such as error in structure data.
 
-##Sitemap
+## Sitemap
+----------
 
 - Sitemap is helps you to where you provide information about the pages , videos and other files on your site and relationship with it. 
 - Search engine reads this file to crawl to more effecicently.
 
-##Robot Meta 
+## Robot Meta 
+-------------
 
 - A Robots meta tag, also known as robots tags, is a piece of HTML code.
 - It is used to control how search engines crawl and index the URL.

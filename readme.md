@@ -1,6 +1,6 @@
 
 
-![Google](https://en.wikipedia.org/wiki/.google)
+![Google](http://www.stickpng.com/img/icons-logos-emojis/tech-companies/google-logo)
 
 
 

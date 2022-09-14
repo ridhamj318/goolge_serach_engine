@@ -51,6 +51,7 @@ do same when he finds other link as like it work as a spider web.
 - It is used to control how search engines crawl and index the URL.
 - It is used to hide necessary information from crawl.
 
+----------------------------
 * Google also finds that the fresh article or information always on ranked top on search engine.
 * Google always keeps a eye on you.
 * Your Search Result is depend on your device location,search history and many more.

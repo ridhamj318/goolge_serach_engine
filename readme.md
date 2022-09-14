@@ -1,11 +1,11 @@
 
 
-![Google](https://upload.wikimedia.org/wikipedia/commons/3/3e/Google_2011_logo.png)
+![Google](http://www.stickpng.com/img/icons-logos-emojis/tech-companies/google-logo)
 
 
 
 
-HOW GOGGLE SEARCH WORKS.
+### ==HOW GOGGLE SEARCH WORKS.==
 ------------------------
 * Goggle stores all of its webpage data in it's index and that stores in it database.
 
@@ -15,9 +15,11 @@ HOW GOGGLE SEARCH WORKS.
 * Index means where the goggle stores its information , data , webpages and many more.
 
 * When any webpage updates on the Internet and apply for goggle to make them appear in goggle search engine.
-* Then goggle send it's Crawler i.e Spider i.e Gogglebot, to that wewbpage.
+* Then goggle send it's [crawl](https://support.google.com/webmasters/answer/7646114?hl=en#:~:text=Crawling%20is%20the%20process%20of,(but%20closely%20related)%20actions.) i.e Spider i.e Gogglebot, to that wewbpage.
 
-* Crawler is an Internet Bot.
+*==Crawling is the process of finding new or updated pages to add to Google.==
+
+* Crawler is an **Internet Bot**.
 
 * crawler scans the whole webpage and store the information,Important Keywords,Images and many more from that webpage.
 * It also check the effection and relevance of the webpage.

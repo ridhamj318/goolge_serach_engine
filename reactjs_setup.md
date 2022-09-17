@@ -16,24 +16,24 @@
 ## Step 3:
 ------
 * Now in the terminal run the below command: 
-  npm install -g create-react-app  
+  **npm install -g create-react-app**  
 ***Installation will take a few seconds***
 * After that to check everything  went well run the command:
-  create-react-app --version
+  **create-react-app --version**
 * If everything went well it will give you the installed version of react app.
  
 ## Step 4:
 ------
 * Now Create a new folder where you want to make your react app using the below command: 
-   mkdir newfolder
+  ** mkdir newfolder**
 * Note: The newfolder in the above command is the name of the folder and can be anything.
 * Move inside the same folder using the below command:
-   cd newfolder (your folder name)
+ **cd newfolder (your folder name)**
 
 ## Step 5:
 -------
 * Now inside this folder run the command :
-  create-react-app reactfirst
+  **create-react-app reactfirst**
 ![your output will look like](https://media.geeksforgeeks.org/wp-content/uploads/20211015201442/immgg.jpg)
 * It will take some time to install the required dependencies
 
@@ -47,7 +47,7 @@
 ## Step 7:
 --------
 * To start your app run the below command :
-  npm start 
+  **npm start** 
 * Once you run the above command a new tab will open in your browser showing React logo as shown below :
 
 ## Congratulation you have successfully installed the react-app and are ready to build awesome websites and app. 

@@ -15,7 +15,7 @@
 
 ## Working of REST API :
 
-![Working Of REST APIs](https://velog.velcdn.com/images/gomuzom/post4d78ca3b-d4ee-4723-b55b-6a12d5566e30image.png)
+![Working Of REST APIs](https://velogvelcdncomimagesgomuzompost4d78ca3b-d4ee-4723-b55b-6a12d5566e30image.png)
 
 
 - A request is sent from client to server in the form of a web URL as HTTP method that contain GET or POST or PUT or 

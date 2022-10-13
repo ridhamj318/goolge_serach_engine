@@ -10,15 +10,15 @@
 * In this a user HTTPs request has directly going to the database,and then database directly response to it.
 ### Let's take an Example:
 		*If a developer makes a Tour&Travles app, that use for booking tours and travel pacakages and for hotels booking.
-This app consists of mainly four services,
-   i) Tour&Travels bookings
-  ii) Hotel's Bookings
- iii) Payment
-  iv) Sign in
+##### This app consists of mainly four services,
+*   i) Tour&Travels bookings
+*  ii) Hotel's Bookings
+* iii) Payment
+* iv) Sign in
 * In this app all this services will pe put in a one big app server. and they all are closely couple to each other.
-In this app if you want to make a change on only one thing So, for that you have to change to whole Application.
-If you want to expand your Hotel's Boooking Services,So for that you have to redevelop the whole application.
-At that time , if someone has to check for tours&Travles so he can't. Because of that the whole app is shut.
+* In this app if you want to make a change on only one thing So, for that you have to change to whole Application.
+* If you want to expand your Hotel's Boooking Services,So for that you have to redevelop the whole application.
+* At that time , if someone has to check for tours&Travles so he can't. Because of that the whole app is shut.
 
 ##### Disadvantages Of Monolithic Services 
 

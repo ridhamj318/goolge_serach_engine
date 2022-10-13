@@ -12,16 +12,16 @@
 * It is loosely couple to each other. 
 * When a user ask for its https file, then the request has passed through the API Gateway, and then it passes to particular services database and then it respond.
 * Let's take an example; 
-				Suppose a developer makes a Tour&Travles app, that use for booking tours and travel pacakages and for hotels booking.
+	* Suppose a developer makes a Tour&Travles app, that use for booking tours and travel pacakages and    for hotels booking.
 This app consists of mainly four services,
-   i) Tour&Travels bookings
-  ii) Hotel's Bookings
- iii) Payment
-  iv) Sign in
- So in a microsevices all the servivces has their own database and they are loosely couple to each others and they have their own datbase.
- If you want to expand your Hotel's Boooking Services,So you can do it easily  you don't have to redeploy your whole app , you can work on it and your other services were working 
+ *  i) Tour&Travels bookings
+ * ii) Hotel's Bookings
+ * iii) Payment
+ *  iv) Sign in
+ * So in a microsevices all the servivces has their own database and they are loosely couple to each others and they have their own datbase.
+ * If you want to expand your Hotel's Boooking Services,So you can do it easily  you don't have to redeploy your whole app , you can work on it and your other services were working 
  effectively.
- So, at that time if anybody has to saw the tours and travels , so he can saw it properly.  
+ * So, at that time if anybody has to saw the tours and travels , so he can saw it properly.  
 
 ### Advantages of Microservices
 

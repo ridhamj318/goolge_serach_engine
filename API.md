@@ -41,13 +41,13 @@
 
 - Every API has their differnt Api key to authentic or verify the geniune request. and to accesse the data.
 
-###Types of API
+### Types of API
 
 There are mainly four main types of APIs:
 
-**Open APIs**:     These types of APIs are open for public and may use by anyone like OAuth APIs from Google. It has also not given any restriction to use them. 
+* **Open APIs**:     These types of APIs are open for public and may use by anyone like OAuth APIs from Google. It has also not given any restriction to use them. 
                    So, they are also known as Public APIs.
-**Partner APIs**:  Specific rights or licenses to access this type of API because they are not available to the public.
-**Internal APIs**: Internal or private. These APIs are developed by companies to use in their internal systems. 
+* **Partner APIs**:  Specific rights or licenses to access this type of API because they are not available to the public.
+* **Internal APIs**: Internal or private. These APIs are developed by companies to use in their internal systems. 
                    It used for connecting systems and data within the business.
-**Composite APIs**:This type of API combines different data and service APIs.
+* **Composite APIs**:This type of API combines different data and service APIs.

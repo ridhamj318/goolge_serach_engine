@@ -15,7 +15,7 @@
 
 ## Working of REST API :
 
-![Working Of REST APIs](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_autogigs/260127571/original/81b1f622228ecf883ba5985e86aa52c395797482/create-api-rest-from-mysql-db-in-php.png)
+![Working Of REST APIs](https://velog.velcdn.com/images/gomuzom/post4d78ca3b-d4ee-4723-b55b-6a12d5566e30image.png)
 
 
 - A request is sent from client to server in the form of a web URL as HTTP method that contain GET or POST or PUT or 
@@ -43,13 +43,13 @@
 - Clients use the DELETE request to remove the resource.
 - If the user does not have appropriate authentication, the request fails.
 
-![CRUD]("https://assets.website-files.com/5ff66329429d880392f6cba2/61c325278ba0dc1f5c550f27_CRUD%20acronym.png")
+![CRUD](https://kysuit.net/assets/img/http-method-for-restful-apis.png)
 
 -----------------------------------------------
 
 ## **REST API Architectural Constraints**
 
-![REST API Architectural Constraints](https://www.google.com/search?q=REST+API+Architectura+Constraints&sxsrf=ALiCzsbd9YuIcQP6EB3q1AXKPBawxribhA:1665567809408&source=lnms&tbm=isch&sa=Xved=2ahUKEwit8oPNs9r6AhWCcGwGHdvqDIEQ_AUoAXoECAEQAw&biw=1536&bih=750&dpr=1.25#imgrc=FdSLA0GzSGOWBM)
+![REST API Architectural Constraints](https://miro.medium.com/max/1300/1*NrXbZQgcT5ndrEDnmULgTw.png)
 
 **Uniform Interface**
 
@@ -138,7 +138,7 @@
 
 -----------------------------
 
-
+![REST API Basics](https://images.tutorialedge.net/uploads/rest-api.png)
 
 
 

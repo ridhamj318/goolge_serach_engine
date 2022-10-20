@@ -2,34 +2,34 @@
 
 -----------
 
-### make directory a git repository
+### Make directory a Git repository
 
 * This is the first step in creating a repository. After running git init,
   adding and committing files/directories is possible.
 
 * It will create a hidden .git file.
 
-* Command : git init
+* Command : **git init**
 
 ### To add files in the to the staging area for Git.
 
-* Command : git add <file name>
+* Command : **git add <file name>**
 
 ### Git Commit Record the changes made to the files to a local repository.
 
-* Command : git commit -m <comment in quotos>
+* Command : **git commit -m <comment in quotos>**
 
 ### Git Status
 
 *  If a file is in the staging area, but not committed, it shows with git status.
 
-* Command :  git status
+* Command : **git status**
 
 ### Git Config
 
 * It is used to see the configurations of GitHub.
 
-* Command : git config
+* Command : **git config**
 
 ### Git Branch
 
@@ -37,15 +37,15 @@
 
 **Create a new branch**
 
-* Command : git branch <branch_name>
+* Command : **git branch <branch_name>**
 
 **List all remote or local branches**
 
-* Command : git branch -a
+* Command : **git branch -a**
 
 **Delete a branch**
 
-* Command : git branch -d <branch_name>
+* Command : **git branch -d <branch_name>**
 
 ### Git Checkout
 
@@ -53,15 +53,15 @@
 
 **To see branch**
 
-* Command : git checkout
+* Command : **git checkout**
 
 **Checkout an existing branch**
 
-* Command : git checkout <branch_name>
+* Command : **git checkout <branch_name>**
 
 **Checkout and create a new branch with that name**
 
-* Command : git checkout -b <new_branch>
+* Command : **git checkout -b <new_branch>**
 
 ### Git Merge
 
@@ -69,7 +69,7 @@
 
 **Merge changes into current branch**
 
-* Command : git merge <branch_name>
+* Command : **git merge <branch_name>**
 
 ### Git Remote 
 
@@ -78,12 +78,12 @@
 * A remote repository can have a name set to avoid having to remember the URL of the repository.
 
 **Add remote repository**
-<
-* Command :  git remote <command> <remote_name> <remote_URL>
+
+* Command :  **git remote <command> <remote_name> <remote_URL>**
 
 **List named remote repositories**
 
-* Command : git remote -v
+* Command : **git remote -v**
 
 ### Git Clone
 
@@ -91,7 +91,7 @@
 
 * Git will create a directory locally with all files and repository history.
 
-* Command : git clone <remote_URL>
+* Command : **git clone <remote_URL>**
 
 ### Git Push 
 
@@ -99,11 +99,11 @@
 
 * git push requires two parameters: the remote repository and the branch that the push is for.
 
-* Command : git push <remote_URL/remote_name> <branch>
+* Command : **git push <remote_URL/remote_name> <branch>**
 
 **Push all local branches to remote repository**
 
-* Command : git push —all
+* Command : **git push —all**
 
 ### Git Pull
 
@@ -111,19 +111,19 @@
 
 *  This pulls the changes from the remote repository to the local computer.
 
-* Command : git pull <branch_name>
+* Command : **git pull <branch_name>**
 
 ### Git Diff
 
 * Diffing is a function that takes two input datasets and outputs the changes between them. 
 
-* Command : git diff<file name>
+* Command : **git diff<file name>**
 
 ### Git restore
 
 * Use this command For resort file.
 
-* Command : git restore <file name>
+* Command : **git restore <file name>**
 
 ### Git Fetch
 
@@ -131,7 +131,7 @@
 
 * However, it does not merge it with our current branch.
 
-* Command : git fetch
+* Command : **git fetch**
 
 ### Git Reset
 
@@ -139,7 +139,7 @@
 
 * This will discard commits in a private branch or throw away the uncommitted changes.
 
-* Command : git reset –hard
+* Command : **git reset –hard**
 
 ### Git Stash
 
@@ -151,11 +151,11 @@
 
 **Store current work with untracked files**
 
-* Command : git stash -u
+* Command : **git stash -u**
 
 **Bring stashed work back to the working directory**
 
-* Command :  git stash pop
+* Command :  **git stash pop**
 
 ### Git Log
 
@@ -163,17 +163,17 @@
 
 * This helps give context and history for a repository. 
 
-* **Show entire git log**
+ **Show entire git log**
 
-* Command : git log
+* Command : **git log**
 
-* **Show git log with date pameters**
+ **Show git log with date pameters**
 
-* command : git log --<after/before/since/until>=<date>
+* command : **git log --<after/before/since/until>=<date>**
 
-* **Show git log based on commit author**
+ **Show git log based on commit author**
 
-* Command : git log --<author>="Author Name"
+* Command : **git log --<author>="Author Name"**
 
 ### Git rm
 
@@ -183,19 +183,19 @@
 
 * The cached command removes the file from the working index.
 
-* **To remove a file from the working index (cached)**
+ **To remove a file from the working index (cached)**
 
-* Command : git rm --cached <file name>
+* Command : **git rm --cached <file name>**
 
-* **To delete a file (force**
+ **To delete a file (force)**
 
-* Command : git rm -f <file name>
+* Command : **git rm -f <file name>**
 
-* **To remove an entire directory from the working index (cached)**
+ **To remove an entire directory from the working index (cached)**
 
-* Command : git rm -r --cached <directory name>
+* Command : **git rm -r --cached <directory name>**
 
-* **To delete an entire directory (force)**
+ **To delete an entire directory (force)**
 
-* Command : git rm -r -f <file name>
+* Command : **git rm -r -f <file name>**
 

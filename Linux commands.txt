@@ -1,0 +1,176 @@
+cat <filename> - this command is used for to open particular file.
+
+
+cp <filename> <place t copy> - this command is used to copy a particular file. from one place to another.
+
+
+rm <filename> - this command is used to delete element.
+
+
+lsof - this command will list all the opne files.
+
+
+id - this tell all about you.
+
+
+hostname  - tells you about the hostname.
+
+
+ifconfig - this command will tell you about the network stuff.  
+
+
+ip - this command have a alot about network stuff and alot informations
+
+
+netstat - the status of your networkj.
+
+
+ss - session stuff `
+
+
+sudo adduser - this command is used to add user.
+
+
+sudo userdel <username> - this command delete the user.
+
+
+sudo groupadd <groupname> - this command simple add new group.
+
+
+cat /etc/password - to watch user passwords
+
+
+** When the user is created also the group is also created of that user.
+
+
+**dgkp - it is a low level package manager. it can install the applications and unistall it too . the flaw of d-package is that it depends on other for installations. it doesn't install dependencies package by self.
+It required .deb(debian) file.
+
+
+**apt - this stands for advance package tool.it is a package manager . it also use for install and unistall. this install the package dependencies by self, without giving error. It is high level package manager.
+It doesn't required .deb file.
+Apt requyires a Repository for installation. A Repository is a kind of collections of Softwares , and alos contains the Storage & Locations.
+"Apt Update " this command isrequired before every installations. because by this command  update the repositories.
+
+
+sudo apt edit-sources - this command , to get the access to repo of installed packages.
+
+
+sudo apt -h -this command will tell you apt and its commands.
+
+
+sudo apt list - this command will list all repo.
+
+
+sudo apt show <package name> - it will show the pacakage . descriptions and all stuffs.
+
+
+sudo apt search <package name> -> it will search the package
+
+
+sudo apt list --installed | grep ^<package name> - this command will search package from the installed package list.
+
+
+sudo apt remove <package name> - it will remove the package.
+
+
+sudo apt purge <package name> - it will remove all the things of package and package too.
+
+
+ sudo apt update - this command check the repo. that is there any update or not.
+
+
+sudo apt upgrade - this command will installed the update in pacakages and applications . 
+
+
+sudo apt  full-upgrade - this command will remove the previously installed pacakges or applications that don't required for the upgrade
+
+
+dgkp -l -- this will show all installed packages on your systems
+
+
+sudo aptitude - it a high level packages manager
+
+
+snap - it also a pacakage manager just like apt. it actually a store not a repository. If you have your package or application so it easy to put it in a store and then download it easily.  (want to learn more about this ) . you get the package instantely by using it ,  
+
+
+* Process - an instance of a running programme
+
+
+when you open a open a programme , a process is created of that programme
+
+
+ps -aux - show the running process.
+
+by adding this" | grep <process name>" you can find the process you want .eg., ps -aux | grep <process name> 
+
+
+
+"Daemon "Process are the process that we don't start , they do by their own.
+
+
+"Daemon" process contains the "d" at last on their name.
+
+
+"Systemd" called "Master Daemon" or "Boss of Daemons"  it is a main Daemons . It actualy initialize the system . when the systems start. Boot ->Kernal -> Systemd -> it init all process and daemons . It is the First Process & Daemon.  he turn on the system 
+
+"systemctl" this commands is used for systemd.Systemd  called deamons as Units.
+
+sudo systemctl status ssh - this command will show the status of deamons.
+
+sudo systemctl restart <deamon namme>
+
+sudo systemctl reload <deamon name>
+
+sudo systemctl reload-or-restart <deamon name> 
+
+sudo systemctl list units - this will list all running deamons 
+
+sudo sytsemctl list units -t <last name or type > - this will list according to last name ,
+
+"sudo journalctl -xe "this conatins the log systemctl
+
+ps - this command is show what is running in your computer. you have to be very specific with ps commands.
+
+ps -u <copy your root name> - this command will show the all processes. and by adding "| grep <process name" you can filter the process by name.
+
+grep <process name> - it gives the process id.
+
+kill <process id> - it will kill or stop that process. 
+
+ps --help 
+ 
+top - this command will show the process acording to their cpu and memory usage and alot other stuffs.
+
+curl - it is a powerful tool. it is used to open website in terminal, to host websites.It is used to transfer data to or from a server. It supports various protocols(HTTP,HTTPS,FTP,etc.)
+
+curl -o <website name > <localhost port> - this will download the localwebsite in your system.
+
+curl - I <localhost port> - this will show that how messages is transfer from that websites and other networking stuff.
+
+curl -v <localhost port> - this command will contain detailed information about the communication between curl and the server . this will help to troubleshoot the problems.
+
+wget <localhost port> - this will save that webpage into your system. 
+
+ls -al - this command will show the hidden file of that directory.
+
+alias <command you want to make>="<reference command>" - this command is help to build your own commands.
+
+nano .bashrc - this command will show you the alias commands.
+
+cat var/log/auth.log - this command show the all logs.
+
+tail var/log/auth.log - this command will show the last 10 logs.
+
+tail -f var/log/auth.log - this command will show the real time logs.
+
+touch <filename> - this command will create the file.
+
+cat <filename> - this command will use to access that file or open it.
+
+
+
+
+
+

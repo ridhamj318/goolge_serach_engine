@@ -1,0 +1,45 @@
+- Docker uses local cache memory to store containers.
+
+- Orchestrator allow us to manage scale monitor the container.that we Can run on our servers.
+
+- when Docker Fails try to restart it.
+
+- Yaml is used in docker & Kubernatives.
+
+* Docker Compose
+- Docker Compose Define & run multi-containers applications
+- It is define using YAMML Files.
+- Docker run using the docker CLI with the compose plugin  
+- docker Compose is use for that don't have high workloads or require a full orchestrator like Kubernatives.
+- It perfect when developing & testing locally before deploying to kubernatives.
+- you can use many cloud services in docker compose. 
+- you can define the power consumption of cpu and memory allocation in docker compose and also limit it.
+- You can set a environment variable
+
+* Container Registries 
+- Central repositories for container images
+- It can be Private or Public
+- docker pull the images from this repo from Docker hub and store it in cache.
+- you can pull and push your image into repo in Docker hub it's just like Github.
+
+* Kubernetes
+-Service discovery & load balancing of containers.
+-storage Orchestration , Local & Cloud based.
+-automated rollouts |& rollbacks 
+-it manage the health of containers.
+-it manages the secret and Configurations of the containers.
+It use the same api across on-premise and every cloud providers.
+-It don't reply the source code 
+-It does not build your application
+-It doesn't provide application level services like message buses,databases,caches,etc.
+
+* Layer Caching 
+
+-In docker File ever you write is a layer itself.
+-so at the very first stage docker store it's layer into cache. 
+-so when you run that docker container another time so it runs fast because at that time it doesn't have to install all layer again.
+- so please define your layer carefully,it related your container speed.
+- In docker when you changes in just one layer , so docker download all layers again from that changed layer.
+suppose there are total 10 layers and you take changed in 7th layer , so it download all layers from the 7th layer.
+      
+
